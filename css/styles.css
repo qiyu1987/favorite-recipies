@@ -10,9 +10,9 @@ a:hover {
 	color: inherit;
 }
 
-a:hover {
+/* a:hover {
 	text-decoration: none;
-}
+} */
 
 .bg-lightblue {
 	background: var(--lightblue);
@@ -55,11 +55,6 @@ a:hover {
 	border-color: var(--white);
 }
 
-@media screen and (max-width: 991px) {
-	.page-header {
-		background: var(--red);
-	}
-}
 /* hero */
 .scroll .hero {
 	transform: scale(0.98);
@@ -77,13 +72,17 @@ a:hover {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(
+	/* background: linear-gradient(
 		rgba(0, 0, 0, 0.5) 0,
 		rgba(0, 0, 0, 0.3) 50%,
 		rgba(0, 0, 0, 0.1) 100%
-	);
+	); */
 }
 
 .hero .container-fluid {
 	z-index: 10;
+}
+/*  Iphone  */
+.iphone {
+	background-color: #f6f6f6;
 }
