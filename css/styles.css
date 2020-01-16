@@ -1,13 +1,29 @@
 /* general */
-:root {
-	--lightblue: #f6f9fc;
-	--red: #d64041;
-	background-color: gray;
-}
+/* @media (max-width: 768px) {
+	h1 {
+		font-size: 60px;
+	}
+} */
 
+html {
+	font-family: "Lato";
+	font-size: 16px;
+}
+h1 {
+	text-align: center;
+	font-size: 8vw;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 700;
+	filter: drop-shadow(-0.891px 0.454px 20px rgba(1, 1, 1, 0.55));
+}
 a,
 a:hover {
 	color: inherit;
+}
+
+h2 {
+	font-size: 18px;
 }
 
 /* a:hover {
@@ -82,7 +98,67 @@ a:hover {
 .hero .container-fluid {
 	z-index: 10;
 }
+.home-favorite {
+	font-size: 36px;
+	color: #ffffff;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-style: italic;
+	filter: drop-shadow(-0.891px 0.454px 20px rgba(1, 1, 1, 0.55));
+	margin: auto;
+}
+.home-recipies {
+	margin: 0 auto 1%;
+}
+.btn-start {
+	margin: 0 auto 30px;
+	width: 20%;
+	padding: 15px;
+	height: 60px;
+	font-size: 18px;
+	border: solid white 0.1rem;
+}
+.home-send {
+	display: block;
+	margin: 30px;
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Lato";
+	font-weight: 400;
+	filter: drop-shadow(-0.891px 0.454px 20px rgba(1, 1, 1, 0.55));
+}
+/* Overview */
+.overview-hr {
+	width: 40%;
+	text-align: left;
+	border-color: red;
+	margin-top: 0.5rem;
+}
 /*  Iphone  */
+@media (max-width: 768px) {
+	#iphone {
+		text-align: center;
+	}
+}
 .iphone {
 	background-color: #f6f6f6;
+}
+.iphone-left,
+.iphone-right {
+	padding: 4rem;
+}
+.iphone-img {
+	position: relative;
+	top: 4rem;
+	width: 70%;
+}
+.iphone-hr {
+	width: 20%;
+	border-color: red;
+	margin-top: 0.5rem;
+}
+/* Reviews */
+#reviews {
+	/* background-color: #4a3949; */
+	background-image: url("../images/review_background.png");
 }

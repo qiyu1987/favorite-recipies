@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
-		<!-- Header (logo and login/signup) -->
+		<!-- Header Section (logo and login/signup) -->
 		<header class="fixed-top page-header">
 			<div class="container-fluid container-fluid-max">
 				<nav
@@ -51,6 +51,8 @@
 			</div>
 		</header>
 		<main>
+			<!-- End Header -->
+
 			<!-- Home Section -->
 			<section
 				id="home"
@@ -60,74 +62,85 @@
 				<div class="container-fluid container-fluid-max">
 					<div class="row align-items-center justify-content-center">
 						<div class="col-10 text-center">
-							<h3 class="text-white">Find your Favorite</h3>
-							<h1 class="text-white">RECIPIES</h1>
+							<p class="home-favorite">Find your Favorite</p>
+							<h1 class="home-recipies">RECIPIES</h1>
 							<div class="mx-auto">
-								<a class="btn bg-red text-white m-auto" href="" role="button"
+								<a class="btn btn-start text-white m-auto" href="" role="button"
 									>GET STARTED</a
 								>
 							</div>
+							<span class="home-send"
+								>OR SEND US YOUR OWN RECIPE AND
+								<a href="#">GET REWARDED</a></span
+							>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- overviews -->
+			<!-- End Home -->
+
+			<!-- Overviews Section-->
 			<section id="overviews" class="overviews">
 				<div class="container-fluid container-fluid-max">
-					<div class="row text-center py-5">
-						<div class="col-12 col-sm-6 col-lg-4">
+					<div class="row text-center">
+						<div class="col-12 col-sm-6 col-lg-4 my-5">
 							<img src="images/icon_1.png" />
-							<h3 class="mt-3 text-red h4">GET INSPIRED</h3>
+							<h2 class="mt-3 ">GET INSPIRED</h2>
+							<hr class="overview-hr" />
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit sed
 								repudiandae.
 							</p>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4">
+						<div class="col-12 col-sm-6 col-lg-4 my-5">
 							<img src="images/icon_2.png" />
-							<h3 class="mt-3 text-red h4">GET REWARDED</h3>
+							<h2 class="mt-3 ">GET REWARDED</h2>
+							<hr class="overview-hr" />
 							<p>
 								Nor again is there anyone who loves or pursues or desires to
 								obtain pain.
 							</p>
 						</div>
-						<div class="col-12 col-sm-6 col-lg-4">
+						<div class="col-12 col-sm-6 col-lg-4 my-5">
 							<img src="images/icon_3.png" />
-							<h3 class="mt-3 text-red h4">GET SOCIAL</h3>
+							<h2 class="mt-3 ">GET SOCIAL</h2>
+							<hr class="overview-hr" />
 							<p>
 								Ut enim ad minima veniam, quis nostrum exercitationem ullam
-								corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
+								corporis suscipit laboriosam.
 							</p>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="iphone">
-				<div class="row p-15">
-					<div
-						class="col-12 col-md-5 d-flex justify-content-end"
-						style="border: crimson solid;"
-					>
-						<img src="images/iphone_5s.png" alt="iphone 5s" style="width:60%" />
+			<!-- End Overviews -->
+
+			<!-- Iphone Section -->
+			<section id="iphone" class="iphone">
+				<div class="row">
+					<div class="iphone-left col-12 col-md-5 d-flex justify-content-end">
+						<img
+							class="iphone-img"
+							src="images/iphone_5s.png"
+							alt="iphone 5s"
+						/>
 					</div>
-					<div
-						class="col-12 col-md-7 d-flex align-items-center"
-						style="border: crimson solid;"
-					>
+					<div class="iphone-right col-12 col-md-7 d-flex align-items-center">
 						<div>
 							<h2>INTRODUCING THE FUDI APP</h2>
+							<hr class="iphone-hr" />
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 								vehicula felis a cursus sollicitudin. Phasellus auctor orci in
 								risus vulputate eleifend.
 							</p>
-							<p>
+							<p class="d-none d-md-block">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Praesent et dictum massa. Donec ac malesuada turpis. Curabitur
 								eget magna aliquet, vehicula erat vitae, finibus felis. Proin
 								rhoncus nulla eu turpis imperdiet pretium.
 							</p>
-							<p>
+							<p class="d-none d-md-block">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Curabitur ut urna enim. Mauris id lorem sed erat sagittis
 								bibendum.
@@ -142,8 +155,24 @@
 					</div>
 				</div>
 			</section>
-			<section class="review"></section>
+			<!-- End Iphone -->
+
+			<!-- Reviews Section -->
+			<section class="reviews" id="reviews">
+				<div class="container d-flex">
+					<img
+						class="reviews-img mx-auto my-5"
+						src="images/client_1.png"
+						alt="client Micheal Dawson"
+					/>
+				</div>
+			</section>
+			<!-- End Reviews -->
+
+			<!-- Cusinies Section -->
 			<section class="cuisines"></section>
+			<!-- End Cusines -->
+
 			<section class="numbers"></section>
 		</main>
 		<footer></footer>
