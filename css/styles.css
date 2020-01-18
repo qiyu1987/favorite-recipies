@@ -1,10 +1,4 @@
 /* general */
-/* @media (max-width: 768px) {
-	h1 {
-		font-size: 60px;
-	}
-} */
-
 html {
 	font-family: "Lato";
 	font-size: 16px;
@@ -62,16 +56,22 @@ hr {
 	background: var(--red);
 }
 
-.page-header {
+/* .page-header {
 	transition: background 0.5s ease-in-out;
-}
+} */
 
 .page-header .navbar {
-	padding: 1rem 0;
+	padding: 1rem 5rem;
 }
 
-.page-header .navbar-toggler {
+/* .page-header .navbar-toggler {
 	border-color: var(--white);
+} */
+.page-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 /* Home */
@@ -159,18 +159,14 @@ hr {
 	margin-top: 0.5rem;
 }
 /* Reviews */
+
 #reviews {
 	background-color: #4a3949;
-	background-image: url(../images/review-bg.png);
+	background-image: url(../images/review_background.png);
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto 175%;
 }
-/* #reviews::after {
-	background-image: url(../images/review-bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 1;
-} */
 
 .client-profile {
 	width: 100px;
@@ -184,20 +180,21 @@ hr {
 	border-radius: 100%;
 }
 /* Cuisines */
+#cuisines {
+	text-align: center;
+}
 .cuisine-cell {
 	padding: 0;
 	margin: 0;
 	width: 20%;
 	text-align: center;
 	padding: auto;
+	position: relative;
 }
 @media (max-width: 576px) {
 	.cuisine-cell {
 		width: 50%;
 	}
-}
-#cuisines {
-	text-align: center;
 }
 .cuisines-hr {
 	width: 10%;
@@ -211,17 +208,22 @@ hr {
 .cuisines img {
 	width: 100%;
 	height: auto;
-}
-figure {
-	margin-bottom: 0;
 	position: relative;
 }
-figcaption {
-	padding: 10px;
-	line-height: 1.5;
+.img-overlay {
 	position: absolute;
-	bottom: 50%;
-	right: 50%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.recipes-num {
+	color: #ffffff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	filter: drop-shadow(-0.891px 0.454px 20px rgba(1, 1, 1, 0.55));
 }
 .cuisine-title {
 	color: white;
