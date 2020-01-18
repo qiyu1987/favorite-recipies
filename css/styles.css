@@ -184,7 +184,18 @@ hr {
 	border-radius: 100%;
 }
 /* Cuisines */
-
+.cuisine-cell {
+	padding: 0;
+	margin: 0;
+	width: 20%;
+	text-align: center;
+	padding: auto;
+}
+@media (max-width: 576px) {
+	.cuisine-cell {
+		width: 50%;
+	}
+}
 #cuisines {
 	text-align: center;
 }
@@ -196,13 +207,10 @@ hr {
 	display: flexbox;
 	flex-direction: row;
 }
-.cuisine-cell {
-	padding: 0;
-	margin: 0;
-	width: 320px;
-	height: 225px;
-	text-align: center;
-	padding: auto;
+
+.cuisines img {
+	width: 100%;
+	height: auto;
 }
 figure {
 	margin-bottom: 0;
@@ -219,4 +227,12 @@ figcaption {
 	color: white;
 	font-size: 36px;
 	font-family: "Lato";
+}
+/* Numbers */
+.counter {
+	font-size: 36px;
+}
+/* Footer */
+.footer {
+	background-color: #f7f7f7;
 }

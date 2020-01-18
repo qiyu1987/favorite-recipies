@@ -5,7 +5,7 @@ var waypoints = $("#recipies-count").waypoint(
 		recipieCount.start()
 	},
 	{
-		offset: "80%"
+		offset: "95%"
 	}
 )
 const usersCount = new CountUp("users-count", 0, 431729, 0, 5)
@@ -15,7 +15,7 @@ var waypoints = $("#users-count").waypoint(
 		usersCount.start()
 	},
 	{
-		offset: "80%"
+		offset: "95%"
 	}
 )
 const reviewsCount = new CountUp("reviews-count", 0, 892173, 0, 5)
@@ -25,7 +25,7 @@ var waypoints = $("#reviews-count").waypoint(
 		reviewsCount.start()
 	},
 	{
-		offset: "80%"
+		offset: "95%"
 	}
 )
 const photosCount = new CountUp("photos-count", 0, 56581, 0, 5)
@@ -35,7 +35,7 @@ var waypoints = $("#photos-count").waypoint(
 		photosCount.start()
 	},
 	{
-		offset: "80%"
+		offset: "95%"
 	}
 )
 const speciesCount = new CountUp("species-count", 0, 3182, 0, 5)
@@ -45,6 +45,6 @@ var waypoints = $("#species-count").waypoint(
 		speciesCount.start()
 	},
 	{
-		offset: "80%"
+		offset: "95%"
 	}
 )
