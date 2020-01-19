@@ -30,54 +30,12 @@ hr {
 	border-color: red;
 }
 
-/* a:hover {
-	text-decoration: none;
-} */
-
-.bg-lightblue {
-	background: var(--lightblue);
-}
-
-.bg-red {
-	background: var(--red);
-}
-
-.text-red {
-	color: var(--red);
-}
-
-.container-fluid-max {
-	max-width: 1440px;
-}
-
-.cover {
-	background: no-repeat center/cover;
-}
-
-.p-15 {
-	padding: 15px;
-}
 /* header */
-/* #logo {
-	position: absolute;
-	top: 3rem;
-	left: 5rem;
-} */
-/* .scroll .page-header {
-	background: var(--red);
-} */
-
-/* .page-header {
-	transition: background 0.5s ease-in-out;
-} */
 
 .page-header .navbar {
 	padding: 1rem 5rem;
 }
 
-/* .page-header .navbar-toggler {
-	border-color: var(--white);
-} */
 .page-header {
 	width: 100%;
 	position: absolute;
