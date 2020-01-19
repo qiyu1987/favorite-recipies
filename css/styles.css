@@ -220,9 +220,17 @@ hr {
 	padding: auto;
 	position: relative;
 }
-@media (max-width: 576px) {
+.cuisine-txt {
+	margin: 30% auto;
+}
+@media (max-width: 768px) {
 	.cuisine-cell {
 		width: 50%;
+	}
+}
+@media (max-width: 576px) {
+	.cuisine-cell {
+		width: 100%;
 	}
 }
 .cuisines-hr {
