@@ -58,10 +58,14 @@ hr {
 	padding: 15px;
 }
 /* header */
-
-.scroll .page-header {
+/* #logo {
+	position: absolute;
+	top: 3rem;
+	left: 5rem;
+} */
+/* .scroll .page-header {
 	background: var(--red);
-}
+} */
 
 /* .page-header {
 	transition: background 0.5s ease-in-out;
@@ -75,6 +79,7 @@ hr {
 	border-color: var(--white);
 } */
 .page-header {
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
