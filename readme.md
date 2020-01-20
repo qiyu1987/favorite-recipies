@@ -44,8 +44,9 @@ This project is developed with Chrome 79, also tested on Safari 13, Firefox 70.
 
 ## Points for improvements and thoughts
 
-**White strip on the right**
--There is a white strip on the right only visible when trying to scroll to the right most. It can be fixed by adding
+- **White strip on the right**
+
+There is a white strip on the right only visible when trying to scroll to the right most. It can be fixed by adding
 
 ```
 html,body
