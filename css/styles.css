@@ -3,6 +3,14 @@ html {
 	font-family: "Lato";
 	font-size: 16px;
 }
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	/* overflow-x: hidden; */
+}
 h1 {
 	text-align: center;
 	font-size: 8vw;
@@ -23,55 +31,27 @@ hr {
 	border-color: red;
 }
 
-/* a:hover {
-	text-decoration: none;
-} */
-
-.bg-lightblue {
-	background: var(--lightblue);
-}
-
-.bg-red {
-	background: var(--red);
-}
-
-.text-red {
-	color: var(--red);
-}
-
-.container-fluid-max {
-	max-width: 1440px;
-}
-
-.cover {
-	background: no-repeat center/cover;
-}
-
-.p-15 {
-	padding: 15px;
-}
 /* header */
-
-.scroll .page-header {
-	background: var(--red);
-}
-
-/* .page-header {
-	transition: background 0.5s ease-in-out;
-} */
 
 .page-header .navbar {
 	padding: 1rem 5rem;
 }
 
-/* .page-header .navbar-toggler {
-	border-color: var(--white);
-} */
 .page-header {
+	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
+}
+.dropdown-toggle::after {
+	content: none;
+}
+.dropdown-menu {
+	background: transparent;
+}
+.dropdown-item {
+	color: white;
 }
 
 /* Home */
@@ -91,11 +71,11 @@ hr {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	/* background: linear-gradient(
+	background: linear-gradient(
 		rgba(0, 0, 0, 0.5) 0,
 		rgba(0, 0, 0, 0.3) 50%,
 		rgba(0, 0, 0, 0.1) 100%
-	); */
+	);
 }
 
 .hero .container-fluid {
@@ -128,6 +108,14 @@ hr {
 	font-family: "Lato";
 	font-weight: 400;
 	filter: drop-shadow(-0.891px 0.454px 20px rgba(1, 1, 1, 0.55));
+}
+@media (max-width: 575.98px) {
+	.home-recipies {
+		font-size: 50px;
+	}
+	.home-favorite {
+		font-size: 26px;
+	}
 }
 /* Overview */
 .overview-hr {
@@ -191,9 +179,17 @@ hr {
 	padding: auto;
 	position: relative;
 }
-@media (max-width: 576px) {
+.cuisine-txt {
+	margin: 30% auto;
+}
+@media (max-width: 768px) {
 	.cuisine-cell {
 		width: 50%;
+	}
+}
+@media (max-width: 576px) {
+	.cuisine-cell {
+		width: 100%;
 	}
 }
 .cuisines-hr {
@@ -228,11 +224,14 @@ hr {
 .cuisine-title {
 	color: white;
 	font-size: 36px;
-	font-family: "Lato";
 }
 /* Numbers */
+.numbers {
+	text-align: center;
+}
 .counter {
 	font-size: 36px;
+	font-weight: 700;
 }
 /* Footer */
 .footer {
