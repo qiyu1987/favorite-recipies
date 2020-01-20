@@ -9,6 +9,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
+	/* overflow-x: hidden; */
 }
 h1 {
 	text-align: center;
@@ -223,7 +224,6 @@ hr {
 .cuisine-title {
 	color: white;
 	font-size: 36px;
-	font-family: "Lato";
 }
 /* Numbers */
 .numbers {
@@ -231,6 +231,7 @@ hr {
 }
 .counter {
 	font-size: 36px;
+	font-weight: 700;
 }
 /* Footer */
 .footer {
