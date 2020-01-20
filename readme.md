@@ -44,7 +44,7 @@ This project is developed with Chrome 79, also tested on Safari 13, Firefox 70.
 
 ## Points for improvements and thoughts
 
-- **White strip on the right**
+### White strip on the right
 
 There is a white strip on the right only visible when trying to scroll to the right most. It can be fixed by adding
 
@@ -61,5 +61,7 @@ However this line of code conflicts with waypoint library
 
 Given more time I could find a way to work around it.
 
-- React library could be used to make component reusable, especially for repeating part such as cuisine image category section. Or when the project scale up to use API calls to get danamic data from the backend.
-- I decided not to use React because the majority of the HTML content is static, and functionalities could be easily achieved by BootStrap and extreme light weight JS library such as waypoints and countUp.
+### React
+
+React library could be used to make component reusable, especially for repeating part such as cuisine image category section. Or when the project scale up to use API calls to get danamic data from the backend.
+I decided not to use React because the majority of the HTML content is static, and functionalities could be easily achieved by BootStrap and extreme light weight JS library such as waypoints and countUp.
