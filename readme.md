@@ -44,23 +44,6 @@ This project is developed with Chrome 79, also tested on Safari 13, Firefox 70.
 
 ## Points for improvements and thoughts
 
-### White strip on the right
-
-There is a white strip on the right only visible when trying to scroll to the right most. It can be fixed by adding
-
-```
-html,body
-{
-    ...
-    overflow-x: hidden;
-}
-```
-
-However this line of code conflicts with waypoint library
-[See the Issue of WayPoint](https://github.com/civiccc/react-waypoint/issues/251)
-
-Given more time I could find a way to work around it.
-
 ### React
 
 React library could be used to make component reusable, especially for repeating part such as cuisine image category section. Or when the project scale up to use API calls to get danamic data from the backend.
